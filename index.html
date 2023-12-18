@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP-Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" type="image/x-icon" href="mypic.jpg">
+    <script src="https://kit.fontawesome.com/e0534155e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- --------------------- nav/highlights ------------------  -->
+    <div id="myhead">
+        <div class="container">
+            <nav>
+                <h1 class="dear"><strong class="D">SP</strong>Sugyan.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#myhead">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="myheader-text">
+                <h3>Hello, It's Me</h3>
+                <h1>SP Sugyan Swain</h1>
+                <h3>And I want to be a <span class="multiple-text">Software Engineer</span></h3></h3>
+                <p>I have completed bachelor's degree and currently I'm pursuing Master's degree.<br>I'm a Teamwork, Collaborative and Adaptability person !</p>  
+                <a href="https://www.linkedin.com/in/sp-sugyan-swain-208802193/" title="linkedin" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Swainspsugyan" title="gitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/s_sugyan"  title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/so_i_am_sp_sugyan/" title="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="SP Sugyan Swain_Java_Developer.pdf" download class="btn">Download Resume</a>
+        </div>
+    </div>
+
+<!-- ------------------------- about ------------------------ -->
+    <div id="about">
+        <div class="row">
+            <div class="about-col1">
+                <img src="mypic.jpg">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title"><b class="Am">A</b>bout <b class="Am">M</b>e.</h1>
+                <p>Passionate and dedicated aspiring Full Stack Java Developer with a keen eye for detail and a love for problem-solving. Eager to contribute innovative solutions and collaborate in dynamic projects. Possesses a strong foundation in Java programming, backed by hands-on experience in both front-end and back-end development. Enthusiastic about learning new technologies and staying updated on industry trends. Committed to delivering high-quality, efficient, and scalable software solutions. Adaptable team player with excellent communication skills. Ready to tackle challenges and contribute to creating impactful and user-centric applications.</p>
+
+
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front-End Development</span><br>Creating UI/UX Websites</li>
+                        <li><span>UI/UX Designer</span><br>Designing Atractive Interface</li>
+                        <li><span>Java Development</span><br>Software Development</li>
+                        <li><span>MySQL</span><br>Building Relational DataBase</li>
+                        <!-- <li><span>Pursuing MERN-Stack Development</span><br>Web Applications Development</li> -->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                            <li><span>Master of Computer Applications (MCA)</span><br>Nov 2022 - Present<br>Institute Of Management and Information Technology (IMIT), Cuttack |85%</li>
+                            <li><span>Bachelor Of Science(BSc)</span><br>Jul 2019 - May 2022<br>Marshaghai Degree College, Marshaghai, Kendrapara, Odisha |83%</li>
+                            <li><span>+2 Science (CHSE)</span><br>Jun 2017 - Jun 2019<br>Kendrapara Residential higher Secondary School of Sc. & Tech., Kendrapara | 64.5%</li>
+                            <li><span>Matriculation</span><br>Mar 2016 - Apr 2017<br>Bajramahakali High School, Kochila ,Kendrapara , Odisha | 77%</li>
+                            <li><span>PGDCA & TALLY</span><br>Dec 2018 - Dec 2019<br>
+                                New Commercial Information Technology Computer Institute,Marshaghai,Kndrapara, Odisha |87.5%</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                            <li><span>Java Development</span><br>Sep 2022 - Oct 2022<br>Octa Net.Bhubaneswar, Odisha, India <i>(Remote)</i><br><br>- Coded and implemented new features in JAVA, enhancing ATM Interface and Calculator functionality.<br>- Conducted thorough testing, ensuring the delivery of high-quality, error-free code.</li>
+                            <li><span>Java Development</span><br>Sep 2022 - Oct 2022<br>Oasis- Infobyte.Bhubaneswar, Odisha, India <i>(Remote)</i><br><br>- Coded and implemented new features in JAVA, enhancing ATM Interface and Calculator functionality.<br>- Conducted thorough testing, ensuring the delivery of high-quality, error-free code.</li>
+                            <li><span>Java Development</span><br>Sep 2022 - Oct 2022<br>CodeClause.Bhubaneswar, Odisha, India <i>(Remote)</i><br><br>- Coded and implemented new features in JAVA, enhancing ATM Interface and Calculator functionality.<br>- Conducted thorough testing, ensuring the delivery of high-quality, error-free code.</li>
+                            <li><br><span>Full-Stack Web Development</span><br>Aug 2022 - Sep 20220<br>Bharat Intern.Bhopal, Madhya Pradesh, India <i>(Remote)</i><br><br>- Adapted quickly to emerging technologies, enhancing skill set in HTML5, CSS3 and Basic JavaScript.<br>- Successfully delivered two responsive and dynamic projects as Netflix Clone and Temperature Converter.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+<!-- --------------------- Portfolio/projects --------------  -->
+<section class="portfolio" id="portfolio">
+    <h1 class="sub-title"><b class="Am">L</b>atest <b class="Am">P</b>roject</h1>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="atm.webp"  width="646" height="300"> 
+                <div class="portfolio-layer">
+                    <h4>ATM Interface</h4>
+                    <p>Java-based city ATMs, with five classes, employ console interface. Users input ID and PIN for unlocked ATM functions: history, withdraw, deposit, transfer, quit.</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="guess.png"  width="646" height="300">
+                <div class="portfolio-layer" >
+                    <h4>Guess The Number</h4>
+                    <p>The system generates a random number (1-100). Users input their guess. Computer indicates match, higher, or lower. Game proceeds accordingly.</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="exam.jpeg" width="646" height="300" >
+                <div class="portfolio-layer">
+                    <h4>Online Examination System</h4>
+                    <p>Project functionalities: Login, Update Profile/Password, MCQ answer selection, Timer/auto-submit, Session closure, Logout.</p>
+                    <a href="https://debash1sh-panda.github.io/ColorSchemeChanger/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="temp.webp"  width="646" height="300">
+                <div class="portfolio-layer">
+                    <h4>Temperature Converter</h4>
+                    <p>Temperature converters switch between Celsius and Fahrenheit, commonly used scales. Some include Kelvin, prevalent in scientific contexts, enhancing versatility.</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="lock.webp"  width="646" height="300">
+                <div class="portfolio-layer">
+                    <h4>Folder Locker</h4>
+                    <p>Java folder locker program secures files with a password, restricting access. Provides enhanced privacy and security for sensitive information.</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div><div class="portfolio-box">
+                <img src="music.jpg"  width="646" height="300">
+                <div class="portfolio-layer">
+                    <h4>Music Streaming App</h4>
+                    <p>Java music streaming app: Seamless audio playback, diverse playlists, user-friendly interface. Elevates music experience with efficiency and versatility.</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- --------------------- Portfolio/certificates ----------- -->
+    <div class="heading">
+        <h1 class="sub-title"><b class="Am">M</b>y <b class="Am">C</b>ertification</h1>
+    </div>
+    <div class="certificate-gallery ">   
+            <div class="certificate-box">
+                <div class="certificat-img">
+                <img src="java.jpg" alt="java development certificate">
+                </div>
+                <div class="certificate-content">
+                <h3>Java Development</h3>
+                <p>Coded and implemented new features in JAVA and oops concept, enhancing ATM Interface and Calculator functionality.
+                <br><br>Conducted thorough testing, ensuring the delivery of high-quality, error-free code.</p>
+                </div>
+            </div>
+            <div class="certificate-box">
+                <div class="certificat-img">
+                <img src="lor.jpg" alt="Full-Stack web development certificate">
+                </div>
+                <div class="certificate-content">
+                <h3>Letter of Recommendation</h3>
+                <p>Secured a Java Developer recommendation from CodeClause Pvt. Ltd., acknowledging proficiency in Java, coding excellence, and collaborative contributions.</p>
+                </div>
+            </div>
+
+    
+            <div class="certificate-box">
+                <div class="certificat-img">
+                <img src="Web.jpg" alt="web development certificate">
+                </div>
+                <div class="certificate-content">
+                <h3>Web Development</h3>
+                <p>Successfully completed a Full Stack Web Development internship at Bharat Intern, gaining hands-on experience in front-end and back-end technologies, problem-solving, and collaborative development practices.</p>
+                </div>
+            </div>
+            
+            <div class="certificate-box">
+                <div class="certificat-img">
+                <img src="sql.jpg" alt="SQL certificate">
+                </div>
+                <div class="certificate-content">
+                <h3>SQL/Relational Database</h3>
+                <p>Certified in SQL through HackerRank, mastering database querying, design, and optimization. Ready to apply expertise in real-world scenarios.<br><br>Gain mastery in Structured Query Language, a fundamental skill for database management. Enhance my career prospects with HackerRank's recognized certification.</p>
+                </div>
+            </div>
+    </div>
+
+
+
+<!-- --------------------- Portfolio/certificates  2 ----------- -->
+
+    <div class="certificate-gallery ">   
+        <div class="certificate-box">
+            <div class="certificat-img">
+            <img src="javah.jpg" alt="java development certificate">
+            </div>
+            <div class="certificate-content">
+            <h3>Java HackerRank(Basic)</h3>
+            <p>Successfully completed HackerRank's Java Basic Learning Certification, showcasing proficiency in core Java concepts and problem-solving skills.
+            <!-- <br><br>Conducted thorough testing, ensuring the delivery of high-quality, error-free code.</p> -->
+            </div>
+        </div>
+
+        <div class="certificate-box">
+            <div class="certificat-img">
+            <img src="csql.jpeg" alt="web development certificate">
+            </div>
+            <div class="certificate-content">
+            <h3>MySQL Codechef</h3>
+            <p>Successfully completed SQL learning certification from CodeChef, demonstrating expertise in database management, querying, and optimization techniques.</p>
+            </div>
+        </div>
+        <div class="certificate-box">
+            <div class="certificat-img">
+            <img src="cjava.jpeg" alt="Full-Stack web development certificate">
+            </div>
+            <div class="certificate-content">
+            <h3>Java Certificate by Codechef</h3>
+            <p>Certified Java Developer by CodeChef, equipped with advanced skills in Java programming, data structures, and algorithmic problem-solving.</p>
+            </div>
+        </div>
+        <div class="certificate-box">
+            <div class="certificat-img">
+            <img src="cssh.jpg" alt="SQL certificate">
+            </div>
+            <div class="certificate-content">
+            <h3>SQL/Relational Database</h3>
+            <p>Earn a comprehensive SQL certificate from IBM, a global leader in technology and innovation.<br><br>Gain mastery in Structured Query Language, a fundamental skill for database management. Enhance my career prospects with IBM's recognized certification.</p>
+            </div>
+        </div>
+</div>
+
+<!-- --------------------- Portfolio/Hobbies --------------- -->
+<section class="hobbies" id="hobbies">
+    <h1 class="sub-title"><b class="Am">M</b>y <b class="Am">H</b>obbies</h1>
+
+        <div class="hobbies-container">
+            <div class="hobbies-box">
+                <i class="fa-solid fa-camera-retro"></i>
+                <h3>LISTENING TO <BR>MUSIC</h3>
+                <p>"Music is my escape, fueling <br>creativity and focus. <br>Whether soothing melodies or <br>energetic beats, it's the soundtrack to life's moments, profound and mundane."</p>
+            </div>
+            <div class="hobbies-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>CODING</h3>
+                <p>"Coding is my creative canvas where ideas morph into functional innovations.<br> With logic and creativity, I address challenges, contributing to technological advancement."</p>
+            </div>
+            <div class="hobbies-box">
+                <i class="fa-solid fa-gamepad"></i>
+                <h3>COOKING</h3>
+                <p>"Passionate about culinary arts, I experiment with flavors, showcase creativity in the kitchen, <br>and find joy in crafting delightful dishes."</p>
+            </div>
+        </div>
+</section>
+
+<!-- ------------------------- contacts -------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>swainsipun256@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>(+91) 7978169035</p>
+                <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sp-sugyan-swain-208802193/" title="linkedin" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Swainspsugyan" title="gitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/s_sugyan"  title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/so_i_am_sp_sugyan/" title="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="SP Sugyan Swain_Java_Developer.pdf" download class="btn">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" class="input-right-animation">
+                    <input type="text" name="Name" placeholder=" name : title " required>
+                    <input type="email" name="E-mail" placeholder="name@gmail.com" required>
+                    <textarea name="Message" rows="5" placeholder="any message for me!"></textarea>
+                    <button class="btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-icon">
+        <a href="#myhead"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+<footer>
+    <div class="copyright">
+        <p>Copyright &copy; 2024 by  SP Sugyan swain. <i class="fa-solid fa-shield-heart"></i></p>
+    </div>
+</footer>
+
+    <!-- -------------- scroll reveal --------- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- -------------------- typed js -------- -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- ----------------- custom js ---------- -->
+    <script src="./index.js"></script>
+</body>
+</html>
